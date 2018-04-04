@@ -63,7 +63,7 @@ int main()
 
     gpxRouteTest(routesDir + "NorthYorkMoors.gpx", false);
 
-    gpxTrackTest(tracksDir + "A1B2C1D3E.gpx", false);
+    gpxTrackTest(tracksDir + "A1B2C1D3E.gpx", true);
 
     return 0;
 }
