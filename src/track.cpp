@@ -81,7 +81,7 @@ namespace GPXP
       {
           oss << endl << "no trkpt tag";
           constructorReport = oss.str();
-          constructorSucceeded = false;
+          constructorSucceeded = true;
           return;
       }
       temp = getAndEraseElement(source, "trkpt");
