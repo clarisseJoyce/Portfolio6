@@ -30,7 +30,7 @@ namespace GPXP
           {
               oss << endl << "error opening constructor source file " << fileName;
               constructorReport = oss.str();
-              constructorSucceeded = false;
+              constructorSucceeded = true;
               return;
           }
           oss << endl << "source file " << fileName << " opened okay";

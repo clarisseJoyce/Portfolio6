@@ -133,7 +133,7 @@ namespace GPXP
 	{
 		/* Returns the name of the Route, or "Unnamed Route" if nameless.
 		*/
-		implementation(true);
+		implementation(false);
 		return routeName.empty() ? "Unnamed Route" : routeName;
 	}
 
@@ -142,7 +142,7 @@ namespace GPXP
 		/* Computes and returns the total length of the Route; this is
 		* the sum of the distances between the successive Positions of the Route.
 		*/
-		implementation(true);
+		implementation(false);
 		return routeLength;
 	}
 
