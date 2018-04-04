@@ -150,7 +150,7 @@ namespace GPXP
 	{
 		/* Returns the distance between the first and last points on the Route.
 		*/
-		implementation(true);
+		implementation(false);
 
 		const Position & start = positions.front();
 		const Position & finish = positions.back();
