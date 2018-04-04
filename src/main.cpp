@@ -36,7 +36,7 @@ void printTrackInfo(const Track & track)
 
 void gpxRouteTest(const string & filename, bool printBuildReport)
 {
-    Route r(filename, false);
+    Route r(filename, true);
     printRouteInfo(r, printBuildReport);
     cout << endl;
 }
@@ -59,7 +59,7 @@ int main()
      * albeit perhaps not all of them at once.
      * To view the build report, set the boolean argument to true.
      */
-    gpxRouteTest(routesDir + "ABCD.gpx", false);
+    gpxRouteTest(routesDir + "ABCD.gpx", true);
 
     gpxRouteTest(routesDir + "NorthYorkMoors.gpx", false);
 
