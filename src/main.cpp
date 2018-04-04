@@ -36,7 +36,7 @@ void printTrackInfo(const Track & track)
 
 void gpxRouteTest(const string & filename, bool printBuildReport)
 {
-    Route r(filename, false);
+    Route r(filename, true);
     printRouteInfo(r, printBuildReport);
     cout << endl;
 }
