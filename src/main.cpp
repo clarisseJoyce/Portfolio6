@@ -59,7 +59,7 @@ int main()
      * albeit perhaps not all of them at once.
      * To view the build report, set the boolean argument to true.
      */
-    gpxRouteTest(routesDir + "ABCD.gpx", true);
+    gpxRouteTest(routesDir + "ABCD.gpx", false);
 
     gpxRouteTest(routesDir + "NorthYorkMoors.gpx", false);
 
