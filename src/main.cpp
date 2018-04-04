@@ -43,7 +43,7 @@ void gpxRouteTest(const string & filename, bool printBuildReport)
 
 void gpxTrackTest(const string & filename, bool printBuildReport)
 {
-    Track t(filename, false);
+    Track t(filename, true);
     printRouteInfo(t, printBuildReport);
     printTrackInfo(t);
     cout << endl;
