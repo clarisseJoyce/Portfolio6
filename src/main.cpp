@@ -61,7 +61,7 @@ int main()
      */
     gpxRouteTest(routesDir + "ABCD.gpx", false);
 
-    gpxRouteTest(routesDir + "NorthYorkMoors.gpx", false);
+    gpxRouteTest(routesDir + "NorthYorkMoors.gpx", true);
 
     gpxTrackTest(tracksDir + "A1B2C1D3E.gpx", true);
 
